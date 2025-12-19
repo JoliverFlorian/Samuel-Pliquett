@@ -24,8 +24,6 @@ html {
 
 body {
     height: 100%;
-    display: grid;
-    place-content: start center;
     font-family: "Poppins";
   /* 4. Add accessible line-height */
   line-height: 1.5;
@@ -393,5 +391,12 @@ h1, h2, h3, h4, h5, h6 {
 
     .footer__nav {
         display: none;
+    }
+}
+
+@media (width >= 1320px) {
+    body {
+    display: grid;
+    place-content: start center;
     }
 }
